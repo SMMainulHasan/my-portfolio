@@ -1,0 +1,30 @@
+.about-me {
+  padding: 100px 150px;
+  min-height: 600px;
+}
+.hr-line {
+  height: 1px;
+  width: 300px;
+  margin: 20px;
+  background-color: rgb(63, 62, 62);
+}
+
+/* profile photo */
+.profile-photo img {
+  width: 250px;
+  border: 2px solid #64ffda;
+  border-radius: 5px;
+  box-shadow: 20px 20px 1px #64ffda;
+  background: #64ffda;
+  transition-duration: 200ms;
+  transition-property: box-shadow;
+}
+.profile-photo img:hover {
+  box-shadow: 10px 10px 1px #64ffda;
+  background: #64ffda;
+  transition-property: box-shadow;
+}
+.technology ul li {
+  list-style: square;
+  color: #64ffda;
+}
