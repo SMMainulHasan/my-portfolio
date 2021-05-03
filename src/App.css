@@ -17,12 +17,14 @@
 /* button */
 .button {
   color: #64ffda;
+  text-decoration: none;
   padding: 0.6rem 1.8rem;
   background-color: transparent;
   border: 1px solid #64ffda;
   border-radius: 5px;
 }
 .button:hover {
+  color: #64ffda;
   background-color: #48f1ca27;
   transition-duration: 500ms;
   transition-property: background-color;

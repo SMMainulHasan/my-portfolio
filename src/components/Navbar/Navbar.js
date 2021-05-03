@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from '../../Images/Mainnul.Hasan_resume.pdf';
+import Resume from '../../Images/Mainnul Hasan resume.pdf';
 import "./Navbar.css";
 
 const Navbar = () => {

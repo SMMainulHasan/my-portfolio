@@ -1,4 +1,7 @@
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from "react";
+import Resume from '../../Images/Mainnul Hasan resume.pdf';
 import './HeaderMain.css';
 
 const HeaderMain = () => {
@@ -15,6 +18,8 @@ const HeaderMain = () => {
       </p>
       <br/>
       <button className="button">Get In Touch</button>
+      <a href={Resume} target="_blank" className="button resume-btn ms-4 me-1" rel="noreferrer">Resume</a>
+      <a href={Resume} download className="button resume-btn"><FontAwesomeIcon icon={faArrowDown} /></a>
     </div>
   );
 };
