@@ -1,5 +1,5 @@
 import React from "react";
-import Dastination from "../../Images/dastination.png";
+import Destination from "../../Images/dastination.png";
 import DigitalService from "../../Images/digital service.png";
 import WatchFlair from "../../Images/watch falir.png";
 import "./FeaturedProject.css";
@@ -58,8 +58,9 @@ const FeaturedProject = () => {
           <h2 className="white-color mb-5 pb-5">Watch Flair</h2>
           <div className="brief-info">
             <p className="text-start">
-              An e-commerce web app where user can order product if user is signed in and users can get there's 
-              order list. In this user can also add product and manage their product.
+              An e-commerce web app where user can order product if user is
+              signed in and users can get there's order list. In this user can
+              also add product and manage their product.
             </p>
           </div>
           <h6 className="mt-5 pt-5 white-color">
@@ -92,39 +93,44 @@ const FeaturedProject = () => {
       {/* ==========
         right align
         ==========*/}
-        <div className="d-flex featured-project">
-      <div className="project-img">
-        <img src={Dastination} alt="DigitalService" />
-      </div>
-      <div className="project-detail d-flex flex-column align-items-end project-info">
-        <p className="green-color">Featured Project</p>
-        <h2 className="white-color mb-5 pb-5">Destination</h2>
-        <div className="brief-info">
-          <p className="text-end">
-            A transport app where user can choose a types of vehicle, after his selection users hss to enter destination location, and it will show his path through google map.
-          </p>
+      <div className="d-flex featured-project">
+        <div className="project-img">
+          <img src={Destination} alt="DigitalService" />
         </div>
-        <h6 className="mt-5 pt-5 white-color">React.js &nbsp;&nbsp;&nbsp;&nbsp; React-Router &nbsp;&nbsp;&nbsp;&nbsp; Firebase</h6>
-        <div className="d-flex project-buttons">
-        <a
-          href="https://destination-61576.web.app/"
-          target="_blank"
-          rel="noreferrer"
-          className="button"
-        >
-          Website
-        </a>
-        <a
-          href="https://github.com/SMMainulHasan/dastination"
-          target="_blank"
-          rel="noreferrer"
-          className="button ms-4"
-        >
-          Github
-        </a>
+        <div className="project-detail d-flex flex-column align-items-end project-info">
+          <p className="green-color">Featured Project</p>
+          <h2 className="white-color mb-5 pb-5">Destination</h2>
+          <div className="brief-info">
+            <p className="text-end">
+              A transport app where user can choose a types of vehicle, after
+              his selection users hss to enter destination location, and it will
+              show his path through google map.
+            </p>
+          </div>
+          <h6 className="mt-5 pt-5 white-color">
+            React.js &nbsp;&nbsp;&nbsp;&nbsp; React-Router
+            &nbsp;&nbsp;&nbsp;&nbsp; Firebase
+          </h6>
+          <div className="d-flex project-buttons">
+            <a
+              href="https://destination-61576.web.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
+              Website
+            </a>
+            <a
+              href="https://github.com/SMMainulHasan/dastination"
+              target="_blank"
+              rel="noreferrer"
+              className="button ms-4"
+            >
+              Github
+            </a>
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 };
