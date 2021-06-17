@@ -15,7 +15,7 @@ const AboutMe = () => {
       <div className="row">
         <div className="col-md-7">
           <p>
-            Hello!! My name is Mainul and I enjoy writing code and implementing
+            Hello! My name is Mainul and I enjoy writing code and implementing
             logical thought into my project. I’m really keen to learn new
             technology. I have built some projects using React, Node.js,
             Express, and MongoDB. Now looking for opportunities to show my
