@@ -1,4 +1,3 @@
-import React from "react";
 import ProfilePhoto from "../../Images/portfolio.png";
 import "./AboutMe.css";
 
@@ -16,7 +15,7 @@ const AboutMe = () => {
         <div className="col-md-7">
           <p>
             Hello! My name is Mainul and I enjoy writing code and implementing
-            logical thought into my project. I’m really keen to learn new
+            logical thought into my project. I'm really keen to learn new
             technology. I have built some projects using React, Node.js,
             Express, and MongoDB. Now looking for opportunities to show my
             ability.I aspire toward a career that will allow me to channel my

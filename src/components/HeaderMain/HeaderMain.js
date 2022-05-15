@@ -1,13 +1,12 @@
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 import Resume from "../../Images/Mainnul Hasan resume.pdf";
 import "./HeaderMain.css";
 
 const HeaderMain = () => {
   return (
     <div className="header-main">
-      <p className="green-color">Hi, my naem is</p>
+      <p className="green-color">Hi, my name is</p>
       <h1 className="white-color heading">Mainul Hasan.</h1>
       <h1 className="heading">I build things for the web.</h1>
       <br />
